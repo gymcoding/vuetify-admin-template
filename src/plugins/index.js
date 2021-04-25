@@ -1,0 +1,1 @@
+import './vue-line-clamp'
