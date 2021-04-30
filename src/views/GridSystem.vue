@@ -4,11 +4,6 @@
     fluid
     tag="section"
   >
-    <view-intro
-      heading="Grid System"
-      link="components/grid"
-    />
-
     <v-row class="text-center">
       <v-col
         v-for="n in 3"

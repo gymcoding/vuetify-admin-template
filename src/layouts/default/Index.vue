@@ -19,7 +19,7 @@ export default {
     DefaultView
   },
   data: () => ({
-    drawer: false,
+    drawer: true,
   }),
 }
 </script>
