@@ -39,28 +39,6 @@ export default {
       default: () => ({})
     }
   },
-  data: () => ({
-  }),
-  computed: {
-    group () {
-      return this.genGroup(this.item.items)
-    },
-  },
-  methods: {
-    genGroup (items) {
-      return items.reduce((acc, cur) => {
-        if (!cur.to) return acc
-
-        acc.push(
-          cur.items
-            ? this.genGroup(cur.items)
-            : cur.to.slice(1, -1),
-        )
-
-        return acc
-      }, []).join('|')
-    },
-  },
 }
 </script>
 <style lang="">
