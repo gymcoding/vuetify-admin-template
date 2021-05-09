@@ -1,6 +1,5 @@
 <template>
   <v-list-group
-    :group="group"
     :prepend-icon="item.icon"
     eager
     v-bind="$attrs"
