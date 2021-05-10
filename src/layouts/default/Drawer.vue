@@ -19,13 +19,17 @@
   </v-navigation-drawer>
 </template>
 <script>
-import DefaultDrawerHeader from './DrawerHeader'
-import DefaultList from './List'
 export default {
   name: 'DefaultDrawer',
   components: {
-    DefaultDrawerHeader,
-    DefaultList
+    DefaultDrawerHeader: () => import(
+      /* webpackChunkName: "default-drawer-header" */
+      './DrawerHeader'
+    ),
+    DefaultList: () => import(
+      /* webpackChunkName: "default-list" */
+      './List'
+    ),
   },
   data: () => ({
     gradient: 'rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)',
