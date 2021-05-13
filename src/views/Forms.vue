@@ -7,171 +7,46 @@
       <v-card-text>
         <v-form
           ref="form"
+          @submit.prevent="submit"
         >
           <v-text-field
+            v-model="name"
             :counter="10"
             label="Name"
           />
 
           <v-text-field
+            v-model="phoneNumber"
+            :counter="7"
+            label="Phone Number"
+          />
+
+          <v-text-field
+            v-model="email"
             label="E-mail"
           />
 
           <v-select
+            v-model="select"
             :items="items"
-            label="Item"
+            label="Select"
+            data-vv-name="select"
           />
 
           <v-checkbox
-            label="Do you agree?"
+            v-model="checkbox"
+            label="Option"
+            type="checkbox"
           />
 
           <v-btn
-            color="success"
             class="mr-4"
+            type="submit"
           >
-            Validate
+            submit
           </v-btn>
-
-          <v-btn
-            color="error"
-            class="mr-4"
-          >
-            Reset Form
-          </v-btn>
-
-          <v-btn
-            color="warning"
-          >
-            Reset Validation
-          </v-btn>
-        </v-form>
-      </v-card-text>
-    </v-card>
-    <v-card class="mt-5">
-      <v-card-title>
-        Horizontal Forms
-      </v-card-title>
-      <v-card-text>
-        <v-form
-          ref="form"
-          lazy-validation
-        >
-          <v-row
-            align="center"
-            no-gutters
-          >
-            <v-col
-              cols="5"
-              md="3"
-              lg="2"
-              class="text-right grey--text"
-            >
-              <div class="py-6 px-3">
-                Name
-              </div>
-            </v-col>
-            <v-col
-              cols="7"
-              md="9"
-              lg="10"
-            >
-              <v-text-field
-                :counter="10"
-                required
-              />
-            </v-col>
-          </v-row>
-          <v-row
-            align="center"
-            no-gutters
-          >
-            <v-col
-              cols="5"
-              md="3"
-              lg="2"
-              class="text-right grey--text"
-            >
-              <div class="py-6 px-3">
-                E-mail
-              </div>
-            </v-col>
-            <v-col
-              cols="7"
-              md="9"
-              lg="10"
-            >
-              <v-text-field
-                required
-              />
-            </v-col>
-          </v-row>
-          <v-row
-            align="center"
-            no-gutters
-          >
-            <v-col
-              cols="5"
-              md="3"
-              lg="2"
-              class="text-right grey--text"
-            >
-              <div class="py-6 px-3">
-                Item
-              </div>
-            </v-col>
-            <v-col
-              cols="7"
-              md="9"
-              lg="10"
-            >
-              <v-select
-                :items="items"
-              />
-            </v-col>
-          </v-row>
-          <v-row
-            align="center"
-            no-gutters
-          >
-            <v-col
-              cols="5"
-              md="3"
-              lg="2"
-              class="text-right grey--text"
-            />
-            <v-col
-              cols="7"
-              md="9"
-              lg="10"
-            >
-              <v-checkbox
-                label="Do you agree?"
-              />
-            </v-col>
-          </v-row>
-
-
-
-
-          <v-btn
-            color="success"
-            class="mr-4"
-          >
-            Validate
-          </v-btn>
-
-          <v-btn
-            color="error"
-            class="mr-4"
-          >
-            Reset Form
-          </v-btn>
-
-          <v-btn
-            color="warning"
-          >
-            Reset Validation
+          <v-btn @click="clear">
+            clear
           </v-btn>
         </v-form>
       </v-card-text>
@@ -181,8 +56,8 @@
 <script>
 export default {
   data: () => ({
-    valid: true,
     name: '',
+    phoneNumber: '',
     email: '',
     select: null,
     items: [
@@ -191,9 +66,20 @@ export default {
       'Item 3',
       'Item 4',
     ],
-    checkbox: false,
+    checkbox: null,
   }),
   methods: {
+    submit () {
+      this.$refs.observer.validate()
+    },
+    clear () {
+      this.name = ''
+      this.phoneNumber = ''
+      this.email = ''
+      this.select = null
+      this.checkbox = null
+      this.$refs.observer.reset()
+    },
   },
 }
 </script>
