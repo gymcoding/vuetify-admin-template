@@ -120,7 +120,7 @@ const routes = [
       {
         path: 'product-list',
         name: 'ProductList',
-        component: import(
+        component: () => import(
           /* webpackChunkName: "views-product-list" */
           '@/views/page/ProductList'
         )
