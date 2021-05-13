@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-card>
       <v-card-title>
-        Stacked Forms
+        Form Validation
       </v-card-title>
       <v-card-text>
         <validation-observer
@@ -18,12 +18,12 @@
               name="Name"
               :rules="{
                 required: true,
-                max: 10
+                max: 20
               }"
             >
               <v-text-field
                 v-model="name"
-                :counter="10"
+                :counter="20"
                 label="Name"
                 :error-messages="errors"
               />
@@ -124,7 +124,13 @@ export default {
   }),
   methods: {
     submit () {
-      this.$refs.observer.validate()
+      this.$refs.observer.validate().then(result => {
+        if (result) {
+          alert('성공')
+        } else {
+          alert('실패')
+        }
+      })
     },
     clear () {
       this.name = ''
