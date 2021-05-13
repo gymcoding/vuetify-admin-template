@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "vee-validate": "^3.4.5",
     "vue": "^2.6.11",
     "vue-line-clamp": "^1.3.2",
     "vue-router": "^3.5.1",
