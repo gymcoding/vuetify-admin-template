@@ -11,6 +11,7 @@ import {
   numeric,
   required,
   digits,
+  confirmed,
 } from 'vee-validate/dist/rules'
 
 extend('digits', {
@@ -36,6 +37,10 @@ extend('numeric', {
 extend('required', {
   ...required,
   message: '{_field_} 필드는 필수값 입니다.',
+})
+extend('confirmed', {
+  ...confirmed,
+  message: '비밀번호와 비밀번호 확인이 일치하지 않습니다.',
 })
 
 Vue.component('ValidationObserver', ValidationObserver)
