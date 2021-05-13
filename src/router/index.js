@@ -89,7 +89,7 @@ const routes = [
     path: '/authentication',
     component: () => import(
       /* webpackChunkName: "layouts-authentication-index" */
-      '@/layouts/default/Index'
+      '@/layouts/authentication/Index'
     ),
     children: [
       {
@@ -114,7 +114,7 @@ const routes = [
     path: '/page',
     component: () => import(
       /* webpackChunkName: "layouts-page-index" */
-      '@/layouts/default/Index'
+      '@/layouts/page/Index'
     ),
     children: [
       {
