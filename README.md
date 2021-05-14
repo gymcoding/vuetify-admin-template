@@ -71,4 +71,4 @@ git checkout tags/<tag_name>
 ## License & Copyright
 
 **MIT License** <br>
-Copyright © 2021 [짐코딩(GymCoding)](https://joshua1988.github.io/)
+Copyright © 2021 [짐코딩(GymCoding)](https://www.youtube.com/channel/UCZ30aWiMw5C8mGcESlAGQbA/?sub_confirmation=1/)
