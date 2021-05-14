@@ -13,9 +13,28 @@
         v-bind="props"
       />
     </template>
+
     <default-drawer-header />
+
     <v-divider />
+
     <default-list :items="items" />
+
+    <template #append>
+      <div class="pa-4 text-center">
+        <v-btn
+          block
+          class="font-weight-black"
+          color="red"
+          rounded
+          large
+          target="_blank"
+          href="https://www.youtube.com/channel/UCZ30aWiMw5C8mGcESlAGQbA/?sub_confirmation=1"
+        >
+          유튜브 짐코딩 채널
+        </v-btn>
+      </div>
+    </template>
   </v-navigation-drawer>
 </template>
 <script>
