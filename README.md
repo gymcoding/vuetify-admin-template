@@ -1,9 +1,10 @@
 # Vuetify Admin Template 만들기
-![site-image](https://user-images.githubusercontent.com/46775510/118226400-e181cc80-b4c1-11eb-8f3f-ad87bd4038bb.png)
+![site-image](https://user-images.githubusercontent.com/46775510/118226400-e181cc80-b4c1-11eb-8f3f-ad87bd4038bb.png)]
 
-Vuetify Admin Template 만들기 강의 소스 자료입니다 😄 강의는 [유튜브 짐코딩 채널](https://www.youtube.com/channel/UCZ30aWiMw5C8mGcESlAGQbA/?sub_confirmation=1)에서 만날 수 있어요. 그리고 Vuetify Admin Template 만들기 강좌는 [기본편](https://www.youtube.com/playlist?list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3)과 [실전편](https://www.youtube.com/playlist?list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5)으로 구성되었습니다.
+Vuetify Admin Template 만들기 강의 소스 입니다. 😄 강의는 [유튜브 짐코딩 채널](https://www.youtube.com/channel/UCZ30aWiMw5C8mGcESlAGQbA/?sub_confirmation=1)에서 만날 수 있어요.
 
 ## 강의순서
+Vuetify Admin Template 만들기 강좌는 [기본편](https://www.youtube.com/playlist?list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3)과 [실전편](https://www.youtube.com/playlist?list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5)으로 구성되었습니다.
 ### 기본편
 Vuetify 란 무엇인지 그리고 Grid System, Breakpoint, Typography와 같이 Vuetify를 사용하기 전에 숙지해야 할 기본적인 특성에 대해 설명합니다.
 - [강의소개](https://www.youtube.com/watch?v=C3dPzOmHea0&list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3&index=1&t=3s) `1.26분`
@@ -68,4 +69,4 @@ git checkout tags/<tag_name>
 ## License & Copyright
 
 **MIT License** <br>
-Copyright © 2020 [짐코딩(GymCoding)](https://joshua1988.github.io/)
+Copyright © 2021 [짐코딩(GymCoding)](https://joshua1988.github.io/)
