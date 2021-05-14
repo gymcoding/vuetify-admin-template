@@ -128,9 +128,9 @@ const routes = [
     ]
   }
 ]
-
 const router = new VueRouter({
-  mode: 'history',
+  mode: process.env.NODE_ENV === 'production' ? 'hash' : 'history',
+  base: process.env.BASE_URL,
   routes
 })
 

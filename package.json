@@ -6,8 +6,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:dev": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build-deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
     "core-js": "^3.6.5",

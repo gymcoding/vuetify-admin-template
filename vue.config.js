@@ -6,8 +6,16 @@ module.exports = {
   transpileDependencies: [
     'vuetify'
   ],
-  productionSourceMap: false,
-  outputDir: './dist',
-  indexPath: 'index.html',
   runtimeCompiler: true,
+  configureWebpack:{
+    performance: {
+      hints: false
+    },
+    optimization: {
+      splitChunks: {
+        minSize: 10000,
+        maxSize: 250000,
+      }
+    }
+  },
 }
