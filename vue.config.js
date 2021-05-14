@@ -6,5 +6,8 @@ module.exports = {
   transpileDependencies: [
     'vuetify'
   ],
-  runtimeCompiler: true
+  productionSourceMap: false,
+  outputDir: './dist',
+  indexPath: 'index.html',
+  runtimeCompiler: true,
 }
