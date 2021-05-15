@@ -33,6 +33,8 @@ Vuetify 란 무엇인지 그리고 Grid System, Breakpoint, Typography와 같이
 - [Nav 하위메뉴 설정](https://www.youtube.com/watch?v=iPEDyFiJGP4&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=5) `13.22분`
 - [Lazy Loading](https://www.youtube.com/watch?v=vn2Aipe9ABQ&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=6) `11.21분`
 - [Form Validation 1탄](https://www.youtube.com/watch?v=_FOQNOrB4Ak&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=7) `14.2분`
+- [Form Validation 2탄](https://www.youtube.com/watch?v=2b84zXsHU4k&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=8) `11.5분`
+- [Form Validation 3탄](https://www.youtube.com/watch?v=9D2k-ApbAx4&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=9) `17.2분`
 - 😃 ing...
 
 ## Project setup
