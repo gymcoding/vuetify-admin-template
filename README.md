@@ -35,7 +35,9 @@ Vuetify 란 무엇인지 그리고 Grid System, Breakpoint, Typography와 같이
 - [Form Validation 1탄](https://www.youtube.com/watch?v=_FOQNOrB4Ak&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=7) `14.2분`
 - [Form Validation 2탄](https://www.youtube.com/watch?v=2b84zXsHU4k&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=8) `11.5분`
 - [Form Validation 3탄](https://www.youtube.com/watch?v=9D2k-ApbAx4&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=9) `17.2분`
-- 😃 ing...
+- [사용자 정의 컴포넌트 1탄](https://www.youtube.com/watch?v=RJl-1U-8JKk&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=10) `17.2분`
+- [사용자 정의 컴포넌트 2탄](https://www.youtube.com/watch?v=E5bLWfWfj6E&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=11) `17.2분`
+- [Vuex 적용](https://www.youtube.com/watch?v=aBOsyjPx8zc&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=12) `17.2분`
 
 ## Project setup
 ```
