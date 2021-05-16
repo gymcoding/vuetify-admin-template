@@ -52,19 +52,35 @@ const routes = [
         )
       },
       {
-        path: '/tables',
+        path: '/tables/app-table',
         name: 'Tables',
         component: () => import(
-          /* webpackChunkName: "views-tables" */
-          '@/views/Tables'
+          /* webpackChunkName: "views-app-tables" */
+          '@/views/table/AppTables'
         )
       },
       {
-        path: '/forms',
-        name: 'Forms',
+        path: '/tables/basic-table',
+        name: 'Tables',
         component: () => import(
-          /* webpackChunkName: "views-forms" */
-          '@/views/Forms'
+          /* webpackChunkName: "views-basic=tables" */
+          '@/views/table/BasicTables'
+        )
+      },
+      {
+        path: '/forms/validation-form',
+        name: 'ValidationForm',
+        component: () => import(
+          /* webpackChunkName: "views-validation-forms" */
+          '@/views/form/ValidationForms'
+        )
+      },
+      {
+        path: '/forms/app-form',
+        name: 'AppForm',
+        component: () => import(
+          /* webpackChunkName: "views-app-forms" */
+          '@/views/form/AppForms'
         )
       },
       {

@@ -108,9 +108,9 @@
   </v-container>
 </template>
 <script>
-
 export default {
   data: () => ({
+    customValue: null,
     name: '',
     phoneNumber: '',
     email: '',
