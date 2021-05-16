@@ -53,7 +53,7 @@ const routes = [
       },
       {
         path: '/tables/app-table',
-        name: 'Tables',
+        name: 'AppTables',
         component: () => import(
           /* webpackChunkName: "views-app-tables" */
           '@/views/table/AppTables'
@@ -61,7 +61,7 @@ const routes = [
       },
       {
         path: '/tables/basic-table',
-        name: 'Tables',
+        name: 'BasicTables',
         component: () => import(
           /* webpackChunkName: "views-basic=tables" */
           '@/views/table/BasicTables'
