@@ -63,7 +63,7 @@ const routes = [
         path: '/tables/basic-table',
         name: 'BasicTables',
         component: () => import(
-          /* webpackChunkName: "views-basic=tables" */
+          /* webpackChunkName: "views-basic-tables" */
           '@/views/table/BasicTables'
         )
       },
