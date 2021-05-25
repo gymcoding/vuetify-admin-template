@@ -39,7 +39,6 @@ const mutations = {
 
 const actions = {
   toggleDrawer ({ commit }, value) {
-    console.log('value: ', value)
     commit('setDrawer', value)
   }
 }
