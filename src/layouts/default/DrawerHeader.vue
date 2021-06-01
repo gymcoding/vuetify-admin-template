@@ -8,7 +8,7 @@
         GymCoding
       </v-list-item-title>
       <v-list-item-subtitle>
-        Vuetify v2.4.5
+        Vuetify v2.4.0
       </v-list-item-subtitle>
     </v-list-item-content>
   </v-list-item>
