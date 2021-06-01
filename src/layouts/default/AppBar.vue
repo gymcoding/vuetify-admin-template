@@ -18,7 +18,7 @@ export default {
         return this.$store.getters['app/getDrawer']
       },
       set (value) {
-        return this.$store.dispatch('app/toggleDrawer', value)
+        return this.$store.commit('app/setDrawer', value)
       }
     }
   }

@@ -1,5 +1,5 @@
 const state = {
-  drawer: false,
+  drawer: true,
   gradient: 'rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)',
   items: [
     { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
