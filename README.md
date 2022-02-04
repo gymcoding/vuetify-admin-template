@@ -6,7 +6,7 @@ Vuetify Admin Template 만들기 강의 소스 입니다. 강의는 [유튜브 �
 
 
 ## 강의순서
-Vuetify Admin Template 만들기 강좌는 [기본편](https://www.youtube.com/playlist?list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3)과 [실전편](https://www.youtube.com/playlist?list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5)으로 구성되었습니다.
+Vuetify Admin Template 만들기 강좌는 [기본편](https://www.youtube.com/playlist?list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3)과 [실전편](https://gymcoding.teachable.com/p/vuetify-admin-template-vue-tip)으로 구성되었습니다.
 - [중간점검-개선사항](https://www.youtube.com/watch?v=m2hjzOOxCG8&list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3&index=1) `2분`
 ### 기본편
 Vuetify 란 무엇인지 그리고 Grid System, Breakpoint, Typography와 같이 Vuetify를 사용하기 전에 숙지해야 할 기본적인 특성에 대해 설명합니다.
@@ -24,11 +24,23 @@ Vuetify 란 무엇인지 그리고 Grid System, Breakpoint, Typography와 같이
 - [Colors](https://www.youtube.com/watch?v=oEoXmHb8QuE&list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3&index=12) `5.23분`
 - [Helper Class](https://www.youtube.com/watch?v=vfId8x-lQ34&list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3&index=13) `4.17분`
 - [기본편 마무리 - 컴포넌트 사용](https://www.youtube.com/watch?v=d4inszEc6QA&list=PLlaP-jSd-nK91TqXFJQ7PVX5pOKoOA9v3&index=14) `17.39분`
-### 실전편
+### 실전편 [강의보기(유료)](https://gymcoding.teachable.com/p/vuetify-admin-template-vue-tip)
 기본편에 이은 "실전편"으로 Vue&Vuetify로 웹 사이트를 개발할 때 알아두면 좋은 실무적인 내용들에 대해 학습합니다.
+
 - [강의소개](https://www.youtube.com/watch?v=6kQFotoh80Q&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=1) `2.23분`
 - [Style Custom - SASS Variables](https://www.youtube.com/watch?v=g2a3eCuaSb0&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=2) `12.09분`
 - [Multiple Layouts 1탄](https://www.youtube.com/watch?v=lgzG8bWXHOY&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=3) `10.13분`
+- [Multiple Layouts 2탄](https://www.youtube.com/watch?v=fTu_H27Or5M&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=4) `15.06분`
+- [Nav 하위메뉴 설정](https://www.youtube.com/watch?v=iPEDyFiJGP4&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=5) `13.22분`
+- [Lazy Loading](https://www.youtube.com/watch?v=vn2Aipe9ABQ&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=6) `11.21분`
+- [Form Validation 1탄](https://www.youtube.com/watch?v=_FOQNOrB4Ak&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=7) `14.2분`
+- [Form Validation 2탄](https://www.youtube.com/watch?v=2b84zXsHU4k&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=8) `11.5분`
+- [Form Validation 3탄](https://www.youtube.com/watch?v=9D2k-ApbAx4&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=9) `17.2분`
+- [사용자 정의 컴포넌트 1탄](https://www.youtube.com/watch?v=RJl-1U-8JKk&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=10) `12.34분`
+- [사용자 정의 컴포넌트 2탄](https://www.youtube.com/watch?v=E5bLWfWfj6E&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=11) `11.32분`
+- [Vuex 적용](https://www.youtube.com/watch?v=aBOsyjPx8zc&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=12) `10.29분`
+
+
 
 ## Project setup
 ```
