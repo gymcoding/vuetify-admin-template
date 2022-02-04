@@ -29,15 +29,6 @@ Vuetify 란 무엇인지 그리고 Grid System, Breakpoint, Typography와 같이
 - [강의소개](https://www.youtube.com/watch?v=6kQFotoh80Q&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=1) `2.23분`
 - [Style Custom - SASS Variables](https://www.youtube.com/watch?v=g2a3eCuaSb0&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=2) `12.09분`
 - [Multiple Layouts 1탄](https://www.youtube.com/watch?v=lgzG8bWXHOY&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=3) `10.13분`
-- [Multiple Layouts 2탄](https://www.youtube.com/watch?v=fTu_H27Or5M&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=4) `15.06분`
-- [Nav 하위메뉴 설정](https://www.youtube.com/watch?v=iPEDyFiJGP4&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=5) `13.22분`
-- [Lazy Loading](https://www.youtube.com/watch?v=vn2Aipe9ABQ&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=6) `11.21분`
-- [Form Validation 1탄](https://www.youtube.com/watch?v=_FOQNOrB4Ak&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=7) `14.2분`
-- [Form Validation 2탄](https://www.youtube.com/watch?v=2b84zXsHU4k&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=8) `11.5분`
-- [Form Validation 3탄](https://www.youtube.com/watch?v=9D2k-ApbAx4&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=9) `17.2분`
-- [사용자 정의 컴포넌트 1탄](https://www.youtube.com/watch?v=RJl-1U-8JKk&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=10) `12.34분`
-- [사용자 정의 컴포넌트 2탄](https://www.youtube.com/watch?v=E5bLWfWfj6E&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=11) `11.32분`
-- [Vuex 적용](https://www.youtube.com/watch?v=aBOsyjPx8zc&list=PLlaP-jSd-nK8FYw7iL-GffpmFlCoby2T5&index=12) `10.29분`
 
 ## Project setup
 ```
